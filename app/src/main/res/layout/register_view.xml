@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <SurfaceView
+        android:id="@+id/sfv_preview"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_marginTop="0dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="312dp"
+        android:layout_height="148dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:hint="请输入名称" />-->
+
+    <Button
+        android:id="@+id/btn_take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="录入" />
+
+
+
+</LinearLayout>

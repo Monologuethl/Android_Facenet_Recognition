@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="533dp"
+        android:orientation="vertical">
+
+        <SurfaceView
+            android:id="@+id/sfv_preview"
+            android:layout_width="match_parent"
+            android:layout_height="412dp"
+            android:layout_marginTop="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="224dp"
+                android:layout_height="100dp"
+                tools:srcCompat="@tools:sample/avatars[0]" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="155dp"
+                android:layout_height="100dp"
+
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="248dp"
+                android:layout_height="100dp"
+                tools:srcCompat="@tools:sample/avatars[5]" />
+
+
+        </LinearLayout>
+
+        <!--android:gravity="right"-->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="224dp"
+            android:layout_height="100dp"
+            tools:srcCompat="@tools:sample/avatars[8]" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="370dp"
+            android:layout_height="80dp"
+            android:gravity="bottom"
+            android:hint="FaceNet" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:progressTint="#F44336"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/take"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:text="开始" />
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="录入" />
+
+        <Button
+            android:id="@+id/init"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:text="初始化" />
+    </LinearLayout>
+
+</LinearLayout>
