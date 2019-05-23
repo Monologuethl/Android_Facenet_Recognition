@@ -1,6 +1,3 @@
----
-typora-root-url: D:\TONG\Android Studio Projects\OpenCV4Android-master
----
 
 ## **Android_Facenet_Recognition**
 
